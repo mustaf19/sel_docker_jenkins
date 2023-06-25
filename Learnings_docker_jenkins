@@ -1,0 +1,38 @@
+- Jenkins make our machine slave and jenkins is the master.
+
+
+CREDENtials in jenkins:
+	- jobs requiring crdentials 
+	- ex: docker-hub credentials
+- adding credentials
+
+- jenkins files
+	- to add important script to make work jenkins as per script
+
+- so jenkins control different m/c made:
+	- we made DOCKER_TEST slave with 3 executors
+	- we have a chart at 128 that asks question that if jenkins is doing all the stuff of controlling machine and all the java required is already has to be installed in different instances, what is the point of having Docker.
+	- answer is all different instances will be containing docker
+
+- the jenkins file
+	- jenkins file content is on next parent bulletin
+	- through this we can define what vm should do, watch contrary that the jenkins file do work autonamously
+	- in other words jenkins share work autonomously to each executors/vm/instance
+	- but you can tell jenkins to share work to a particular thing
+	- jenkins file is used in daily basis
+		- daily builds
+		- daily tests
+		- daily executions
+	- using jenkins file we can add:
+		- credentials ID like we added to Jenkins > credentials
+		- add volume mappings
+		- build and many more..
+		- we can add -> app latest as well as a particular version
+	- most of the jenkins things are done on Linux
+	- slave and master have number of executors and we have make sure that the master executors be none so that we can execute our scripts on our slaves machines
+
+- jenkins file content:
+	- you can see directly
+
+- git:
+	- git init -> to initialize
